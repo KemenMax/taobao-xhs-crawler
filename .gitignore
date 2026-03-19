@@ -1,0 +1,4 @@
+selenum_profiles/
+zaopo_cu_dataset/
+__pycache__/
+*.py[cod]
