@@ -35,6 +35,7 @@ SEARCH_URL = (
     "&source=web_search_result_notes"
 )
 
+# 需要拦截的 API 端点（URL 中包含此字符串即认为是目标请求）
 TARGET_API = "api/sns/web/v1/search/notes"
 
 BASE_DIR = Path(__file__).parent / "zaopo_cu_dataset"
